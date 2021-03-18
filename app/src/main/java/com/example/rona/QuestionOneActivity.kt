@@ -20,7 +20,6 @@ class QuestionOneActivity : AppCompatActivity() {
         //get intent extra info
         val userName = intent.getStringExtra(Constants.USER_NAME)
 
-
         //get questions
         val questionsList = Constants.getQuestions()
         Log.i("QuestionsList: ", "${questionsList.size}")
